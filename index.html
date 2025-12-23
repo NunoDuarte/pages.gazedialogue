@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-9097QXWNCZ"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+  
+    gtag('config', 'G-9097QXWNCZ');
+  </script>
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="Cognitive neuroscience shows that people intensify non-verbal cue exchange when working together. This paper models how gaze cues drive mutual alignment of actions in dyadic interactions, using human and robot experiments to evaluate leader/follower gaze behavior and intention alignment.">
+  <meta property="og:title" content="Action Alignment from Gaze Cues in Human-Human and Human-Robot Interaction"/>
+  <meta property="og:description" content="This paper explores how gaze cues and non-verbal signals drive mutual alignment of actions during joint tasks. We model leader and follower gaze behavior in dyadic interactions, using human and robot experiments to evaluate intention alignment and social coordination."/>
+  <meta property="og:url" content="https://nunoduarte.github.io/pages.eccv18/"/>
+  <meta property="og:image" content="static/images/icub_interaction_banner.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+  <meta name="twitter:title" content="Action Alignment from Gaze Cues in Human-Human and Human-Robot Interaction">
+  <meta name="twitter:description" content="We study how gaze cues and non-verbal signals support mutual alignment of actions in joint tasks. Our model, tested in human-robot interaction, shows how leader and follower gaze behavior enables intention alignment and social coordination.">
+  <meta name="twitter:image" content="static/images/icub_interaction_banner.png">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <title>Action Alignment</title>
+  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css"
+  >
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+
+
+<nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+  <div class="navbar-menu">
+    <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
+      <a class="navbar-item" href="https://nunoduarte.github.io">
+      <span class="icon">
+          <i class="fas fa-home"></i>
+      </span>
+      </a>
+
+     <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link">
+          More Research
+        </a>
+        <div class="navbar-dropdown">
+	  <a class="navbar-item" href="https://nunoduarte.github.io/pages.ral18">
+            Action Anticipation
+          </a>
+          <a class="navbar-item" href="https://nunoduarte.github.io">
+            Gaze Dialogue
+          </a>
+        </div>
+    </div>
+
+  </div>
+</nav>
+
+<section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns">
+          <div class="column is-three-fifths is-flex is-flex-wrap-wrap">
+                <img src="static/images/logo_tecnico.png" style="height: 100px;" alt="MY ALT TEXT"/>
+                <img src="static/images/logo_isr.png" style="height: 100px;" alt="MY ALT TEXT"/>
+          </div>
+          <div class="column is-flex is-flex-direction-row-reverse is-flex-wrap-wrap">
+            <img src="static/images/logo_eccv.png" style="height: 100px;" alt="MY ALT TEXT"/>
+              </div>
+        </div>
+        <div class="columns is-centered">
+
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">Action Alignment from Gaze Cues in Human-Human and Human-Robot Interaction</h1>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <span class="author-block">
+                <a href="https://nunoduarte.github.io" target="_blank">Nuno Ferreira Duarte</a><sup>1</sup>,</span>
+                <span class="author-block">
+                  <a href="https://scholar.google.com.sg/citations?user=hSUzJK0AAAAJ&hl=en" target="_blank">Mirko Rakovi&cacute;</a>,<sup>2</sup></span>
+                  <span class="author-block">
+                    <a href="https://scholar.google.com/citations?user=8Vwg-7sAAAAJ&hl=en" target="_blank">Jorge Marques </a><sup>1</sup>,</span>
+		    <span class="author-block">
+                        <a href="https://isr.tecnico.ulisboa.pt/author/josealbertorosado/" target="_blank">José Santos-Victor</a><sup>1</sup> 
+	      </span>
+		</div>
+
+                  <div class="is-size-5 publication-authors">
+                    <span class="author-block"><sup>1</sup>ISR-Lisboa <sup>2</sup>University of Novi Sad <br>European Conference on Computer Vision (ECCV 2018 - Workshop)</span>
+                  </div>
+
+                  <div class="column has-text-centered">
+                    <div class="publication-links">
+                         <!-- Arxiv PDF link -->
+                      <span class="link-block">
+                        <a href="https://vislab.isr.ist.utl.pt/wp-content/uploads/2020/01/nduarte-eccv2018w.pdf" target="_blank"
+                        class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <i class="fas fa-file-pdf"></i>
+                        </span>
+                        <span>Paper</span>
+                      </a>
+                    </span>
+
+                    <!-- IEEE link -->
+                    <span class="link-block">
+                      <a href="https://link.springer.com/chapter/10.1007/978-3-030-11015-4_17" target="_blank"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="fas fa-file-pdf"></i>
+                      </span>
+                      <span>IEEE</span>
+                    </a>
+                  </span>
+
+                  <!-- Video link -->
+                  <span class="link-block">
+                    <a href="https://www.youtube.com/watch?v=pLEhfRes57g" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-youtube"></i>
+                    </span>
+                    <span>YouTube</span>
+                  </a>
+                </span>
+
+                <!-- Github Link -->
+                <span class="link-block">
+                  <a href="https://github.com/NunoDuarte/bioGMR_iCub" target="_blank"
+                  class="external-link button is-normal is-rounded is-light">
+                  <span class="icon">
+                    <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Teaser video-->
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <video 
+        id="tree" 
+        playsinline 
+        webkit-playsinline 
+        muted 
+        loop 
+        autoplay="autoplay"
+        preload="auto"
+        height="100%"
+        <source src="https://res.cloudinary.com/dcj7wjo3u/video/upload/v1766501609/eccv18_teaser_pn7and.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <h2 class="subtitle has-text-centered">
+        We study how gaze cues and non-verbal signals enable mutual alignment of actions in joint human-human and human-robot tasks.
+     </h2>
+    </div>
+  </div>
+</section>
+<!-- End teaser video -->
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+Cognitive neuroscience experiments show how people intensify the exchange of non-verbal cues when they work on a joint task towards a common goal. When individuals share their intentions, it creates a social interaction that drives the mutual alignment of their actions and behavior. To understand the intentions of others, we strongly rely on the gaze cues. According to the role each person plays in the interaction, the resulting alignment of the body and gaze movements will be different. This mechanism is key to understand and model dyadic social interactions. We focus on the alignment of the leader’s behavior during dyadic interactions. The recorded gaze movements of dyads are used to build a model of the leader’s gaze behavior. We use of the follower’s gaze behavior data for two purposes: (i) to determine whether the follower is involved in the interaction, and (ii) if the follower’s gaze behavior correlates to the type of the action under execution. This information is then used to plan the leader’s actions in order to sustain the leader/follower alignment in the social interaction. The model of the leader’s gaze behavior and the alignment of the intentions is evaluated in a human-robot interaction scenario, with the robot acting as a leader and the human as a follower. During the interaction, the robot (i) emits non-verbal cues consistent with the action performed; (ii) predicts the human actions, and (iii) aligns its motion according to the human behavior.         </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+
+<!-- Image carousel -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <div id="results-carousel" class="carousel results-carousel">
+      <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/carousel2.jpg" alt="MY ALT TEXT" style="display: block; margin: 0 auto;"/>
+        <h2 class="subtitle has-text-centered">
+          Robot Interacting with a Human by Reading their Human Non-verbal Cues.
+        </h2>
+      </div>
+      <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/carrousel4.png" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+         The different gaze behaviors observed during receiving actions.
+       </h2>
+     </div>
+      <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/carrousel5.png" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+         The different gaze behaviors observed during receiving actions.
+       </h2>
+     </div>
+  </div>
+</div>
+</div>
+</section>
+<!-- End image carousel -->
+
+
+
+
+<!-- Youtube video -->
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <!-- Paper video. -->
+      <h2 class="title is-3">Video Presentation</h2>
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          
+          <div class="publication-video">
+            <!-- Youtube embed code here -->
+            <iframe src="https://www.youtube.com/embed/pLEhfRes57g" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End youtube video -->
+
+<!--BibTex citation -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>@InProceedings{10.1007/978-3-030-11015-4_17,
+author="Duarte, Nuno Ferreira
+and Rakovi{\'{c}}, Mirko
+and Marques, Jorge
+and Santos-Victor, Jos{\'e}",
+editor="Leal-Taix{\'e}, Laura
+and Roth, Stefan",
+title="Action Alignment from Gaze Cues in Human-Human and Human-Robot Interaction",
+booktitle="Computer Vision -- ECCV 2018 Workshops",
+year="2019",
+publisher="Springer International Publishing",
+address="Cham",
+pages="197--212",
+isbn="978-3-030-11015-4"
+}</code></pre>
+    </div>
+</section>
+<!--End BibTex citation -->
+
+
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was adapted from <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which in turn was inspired by <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            I express my gratitude to the creators of the mentioned repos. Please visit their websites if you would like to use their work. This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+  </body>
+  </html>
